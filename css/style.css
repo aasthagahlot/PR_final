@@ -497,6 +497,74 @@ button:hover {
 
 
 
+/*howtodos*/
+
+#guide {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.guide header {
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.guide section-box {
+    padding: 20px;
+    border: 1px solid #ecdede;
+    margin: 10px auto;
+    max-width: 600px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.guide h2 {
+    color: #333;
+    text-align: center;
+}
+
+.guide p {
+    text-align: center;
+}
+
+
+.guide button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #01192d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #tool {
@@ -513,25 +581,25 @@ button:hover {
     margin-bottom: 0;
 }
 
-#units{
+#units {
     text-align: center;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     font-family: cursive;
-    border-style:solid;
+    border-style: solid;
     border-color: #514b4b;
     background-color: #545056;
-    
 
 
-    
+
+
 }
 
 
 .units button-container {
-    text-align: center; 
-    
+    text-align: center;
+
 }
 
 .units button-container button {
@@ -540,11 +608,13 @@ button:hover {
     color: white;
     border: none;
     cursor: pointer;
-    margin-right: 10px; /* Optional: Add margin between buttons */
+    margin-right: 10px;
+    /* Optional: Add margin between buttons */
 }
 
 .units button-container button:last-child {
-    margin-right: 0; /* Optional: Remove margin for the last button */
+    margin-right: 0;
+    /* Optional: Remove margin for the last button */
 }
 
 .units box {
@@ -556,8 +626,9 @@ button:hover {
 
 .partition-line {
     border-top: 2px solid #ccc;
-    margin: 20px 0; /* Adjust margin as needed */
-    
+    margin: 20px 0;
+    /* Adjust margin as needed */
+
 }
 
 
@@ -592,8 +663,8 @@ button {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: cursive;
-   
-    
+
+
 }
 
 
