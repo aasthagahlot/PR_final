@@ -1,0 +1,697 @@
+:root {
+    --main-color: #4c245d;
+    --black: #222;
+    --white: #fff;
+    --light-black: #777;
+    --light-white: #fff9;
+    --dark-bg: rgba(0, 0, 0, .7);
+    --light-bg: #eee;
+    --border: 1rem solid var(var(--black));
+    --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --text-shadow: 0 1.5rem 3rem rgba(0, 0, 0, .3);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: cursive;
+    color: white;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+    padding: 8px;
+    /* Adjust padding for a smaller size */
+    font-size: 14px;
+    /* Adjust font size for a smaller size */
+    border: none;
+    /* Remove border */
+    border-radius: 15px;
+    /* Set border-radius to make it cylindrical */
+    float: left;
+    width: 70%;
+    /* Adjust width as needed */
+    background: #f1f1f1;
+
+}
+
+/* Style the submit button */
+form.example button {
+    float: left;
+    width: 20%;
+    /* Adjust width as needed */
+    padding: 8px;
+    /* Adjust padding for a smaller size */
+    background: #01192d;
+    color: white;
+    font-size: 14px;
+    /* Adjust font size for a smaller size */
+    border: none;
+    /* Remove border */
+    border-radius: 15px;
+    /* Set border-radius to make it cylindrical */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #1e3343;
+}
+
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add the following styles to your existing CSS */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(94, 91, 91);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+    font-style: italic;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #cdc5c5;
+}
+
+.dropdown-content a:hover {
+    background-color: #514b4b;
+    padding-right: 2rem;
+}
+
+.nav-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Add the following styles to your existing CSS */
+.arrow {
+    margin-left: 5px;
+    /* Adjust the margin as needed */
+}
+
+/* Add the following styles to rotate the arrow when the dropdown is open */
+.nav-item.dropdown:hover .arrow {
+    transform: rotate(180deg);
+    /* Rotate 180 degrees for a downward arrow */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+
+
+
+
+
+
+
+/* style.css */
+/* ... (your existing styles) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+main {
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    /* Ensures padding is included in the element's total width and height */
+}
+
+#recipe {
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    color: #7a848d;
+    margin-bottom: 200px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    font-weight: bold;
+    /*background: url(../image/bg2.jpg);*/
+}
+
+#line {
+    text-align: center;
+    padding: 30px;
+    margin: 30px 0 0;
+    color: #7a848d;
+    margin-bottom: 0;
+
+}
+
+.feature-section {
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+input[type="text"] {
+    flex: 1;
+    /* This makes the input take the remaining space */
+    margin-right: 10px;
+    /* Add margin to the right of the input */
+    width: calc(100% - 20px);
+    /* Adjust width to account for the margin */
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #01192d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1e3343;
+}
+
+#ingredientResult {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f1f1f1;
+
+}
+
+/* style.css */
+/* ... (your existing styles) */
+
+#share-buttons {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#facebook-share {
+    background-color: #1877f2;
+    /* Facebook blue color */
+    color: #fff;
+}
+
+#email-share {
+    background-color: #321919;
+    /* Black color */
+    color: #fff;
+}
+
+#reddit-share {
+    background-color: #ff4500;
+    /* Reddit orange color */
+    color: #fff;
+}
+
+
+#share-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#share-buttons button:hover {
+    background-color: #1e3343;
+}
+
+
+/* style.css */
+#linee {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    /* Align in the center */
+    color: #7a848d;
+    max-width: 800px;
+    /* Set a maximum width if needed */
+    margin-bottom: 130px;
+}
+
+#linee h9 {
+    font-size: 14px;
+    color: #7a848d;
+    /* Adjust font size as needed */
+}
+
+/* style.css */
+#popular-reads {
+    text-align: center;
+    margin: 30px 0;
+    color: #7a848d;
+}
+
+
+#popular-reads h2 {
+    margin-bottom: 40px;
+    /* Add margin at the bottom of the heading */
+}
+
+.recipe-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 10px 30px;
+    max-width: 400px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 70px;
+    /* Align text within the card to the left */
+}
+
+.recipe-card h3 {
+    color: #4c245d;
+}
+
+.recipe-card p {
+    color: #777;
+}
+
+/* FAQS START */
+
+#faq {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    margin-bottom: 150px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+#ques {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    /* Align in the center */
+    color: white;
+    max-width: 800px;
+    /* Set a maximum width if needed */
+    margin-bottom: 130px;
+}
+
+/* Add the following styles to your existing CSS */
+#popular-reads {
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Updated styles for question-section */
+.question-section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    width: 300px;
+    /* Fixed width for equal size */
+    border: 2px solid #5c5858;
+    /* Border styles */
+    border-radius: 8px;
+    /* Optional: Add border-radius for rounded corners */
+    overflow: hidden;
+    /* Optional: Hide overflowing content */
+    margin-bottom: 200px;
+}
+
+
+/* Add the following styles to your existing CSS */
+.question-section h3 {
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.question-section img {
+    width: 100%;
+    height: auto;
+}
+
+.question-section p {
+    margin: 10px 0;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.question-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #01192d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.question-section .btn:hover i {
+    padding-right: 2rem;
+}
+
+/* Add the following styles to your existing CSS */
+#comparisons {
+    text-align: center;
+    color: white;
+}
+
+.comparison-section {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+    width: 300px;
+    /* Fixed width for equal size */
+    border: 2px solid #f2eeee;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+
+.comparison-section a {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.btn-more-comparisons {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #01192d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.btn-more-comparisons:hover i {
+    padding-right: 2rem;
+}
+
+
+
+
+/* Add the following styles to your new style.css file */
+
+#leftovers {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.leftover-section {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    width: 250px;
+    /* Fixed width for equal size */
+    border: 2px solid #5c5858;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.leftover-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.leftover-section a {
+    display: block;
+    padding: 10px;
+
+    color: #f3eeee;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.btn-more-leftovers {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #01192d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.btn-more-leftovers:hover i {
+    padding-right: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+#tool {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    margin-bottom: 150px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+#units{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: cursive;
+    border-style:solid;
+    border-color: #514b4b;
+    background-color: #545056;
+    
+
+
+    
+}
+
+
+.units button-container {
+    text-align: center; 
+    
+}
+
+.units button-container button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Optional: Add margin between buttons */
+}
+
+.units button-container button:last-child {
+    margin-right: 0; /* Optional: Remove margin for the last button */
+}
+
+.units box {
+    background-color: #513535;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.partition-line {
+    border-top: 2px solid #ccc;
+    margin: 20px 0; /* Adjust margin as needed */
+    
+}
+
+
+
+#sauces {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+
+.sauces search-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sauces recipe-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background: url(../image/footerbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    border-top-left-radius: 50% 20px;
+    /* Adjust the values for the desired curve */
+    border-top-right-radius: 50% 20px;
+}
+
+/* Styles for the provided footer */
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.box {
+    flex: 1;
+    margin: 10px;
+}
+
+.box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.box a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.box a i {
+    margin-right: 5px;
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.box a:hover i {
+    padding-right: 2rem;
+}
+
+.credit {
+    margin-top: 20px;
+    font-size: 2rem;
+    border-top: .1rem solid var(--light-white);
+    color: var(--white);
+    text-align: center;
+}
+
+.credit span {
+    font-weight: bold;
+    color: #fff;
+}

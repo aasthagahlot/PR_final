@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Recipy hub</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="home.html">
+                <img src="image/logo.png" alt="Your Logo" style="max-width: 50px;">
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="faqs.html" id="faqsDropdown">FAQs <span
+                                class="arrow">&&#9660;</span></a>
+                        <div class="dropdown-content" id="faqDropdown">
+                            <a href="#">Baking</a>
+                            <a href="#">Comparisions</a>
+                            <a href="#">Cooking</a>
+                            <a href="#">Eating</a>
+                            <a href="#">Leftovers</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="howto.html" id="howtoDropdown">
+                            How-Tos <span class="arrow">&#9660;</span>
+                        </a>
+                        <div class="dropdown-content" id="howtoDropdownContent">
+                            <a href="conv.html">Cook</a>
+                            <a href="#">Freeze</a>
+                            <a href="#">Microwave</a>
+                            <a href="#">Prepare</a>
+                            <a href="#">Reheat</a>
+                            <a href="#">Serve</a>
+                            <a href="#">Store</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="ingre.html">Ingredients <span class="arrow">&&#9660;</span></a>
+                        <div class="dropdown-content" id="howtoDropdownContent">
+                            <a href="#">Lists</a>
+                            <a href="#">Taste</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <form class="example" action="">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="faq">
+            <h1>FAQs</h1>
+        </section>
+
+        <section id="ques">
+            <h5>We Answer Some of Your Most Common Questions About Baking, Cooking and Eating</h5>
+        </section>
+
+
+        <section id="popular-reads">
+        
+            <!-- Cooking Questions Section -->
+            <div class="question-section" id="cookingQuestions">
+                <h3>Cooking Qs</h3>
+                <img src="image/cake.jpg" alt="img" style="width: 250px; height: 300px;">
+                <p>Have you ever wondered how to bake a mouth-watering chocolate cake that's not only delicious but also easy to make? Our cooking experts have crafted a step-by-step guide to help you create the perfect chocolate cake. Follow the instructions and enjoy the delightful taste of a homemade dessert.</p>
+                <a href="more.html" class="btn">Get Recipe</a>
+                <!-- Add your cooking questions content here -->
+            </div>
+            
+            <!-- Baking Questions Section -->
+            <div class="question-section" id="bakingQuestions">
+                <h3>Baking Qs</h3>
+                <img src="image/bread.jpeg" alt="img" style="width: 250px; height: 300px;">
+                <p>Are you passionate about baking? Explore the art of baking with our collection of baking recipes. From bread to pastries, we have curated a variety of recipes to satisfy your baking cravings. Elevate your baking skills and create delicious treats for yourself and your loved ones.                      .</p>
+                <a href="more.html" class="btn">Discover Baking</a>
+                <!-- Add your baking questions content here -->
+            </div>
+            
+            <!-- Eating Questions Section -->
+            <div class="question-section" id="eatingQuestions">
+                <h3>Eating Qs</h3>
+                <img src="image/dinner.jpeg" alt="img" style="width: 250px; height: 300px;">
+                <p>Indulge in the joy of eating with our mouth-watering recipes. Whether you're planning a family dinner or a cozy meal for yourself, we have recipes that cater to all tastes and preferences. Explore our collection and bring the joy of delicious food to your dining table.</p>
+                <a href="more.html" class="btn">Explore Recipes</a>
+                <!-- Add your eating questions content here -->
+            </div>
+            
+        </section>
+
+
+        <section id="comparisons">
+            <h2>This vs That</h2>
+        
+            <!-- Comparison 1 -->
+            <div class="comparison-section">
+                <img src="image/comp1.jpg" alt="img" style="width: 200px; height: 200px; display: block; margin: 5px auto;">
+                <img src="image/comp2.jpg.crdownload" alt="img" style="width: 200px; height: 200px; display: block; margin: 10px auto;">
+                <a href="#">Paneer Tikka</a>
+            </div>
+            
+        
+            <!-- Comparison 2 -->
+            <div class="comparison-section">
+                <img src="image/comp3.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 5px auto;">
+                <img src="image/comp4.jpg" alt="img" style="width: 200px; height: 200px; display: block; margin: 10px auto;">
+                <a href="#">Cheese</a>
+            </div>
+
+
+            <div class="comparison-section">
+                <img src="image/comp5.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 5px auto;">
+                <img src="image/comp6.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 10px auto;">
+                <a href="#">Chapatti</a>
+            </div>
+
+            <div class="comparison-section">
+                <img src="image/comp7.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 5px auto;">
+                <img src="image/comp8.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 10px auto;">
+                <a href="#">Ambrosia Salad</a>
+            </div>
+        
+            <!-- Add more comparisons as needed -->
+        
+            <!-- Button for More Comparisons -->
+            <button class="btn-more-comparisons"><a href="more.html">More Comparisons</a></button>
+        </section>
+
+
+        <section id="leftovers">
+            <h2>Leftovers</h2>
+    
+            <!-- Leftover 1 -->
+            <div class="leftover-section">
+                <img src="image/veg.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 5px auto;">
+                
+                <a href="#">what to do with Leftover Dish </a>
+            </div>
+    
+            <!-- Leftover 2 -->
+            <div class="leftover-section">
+                <img src="image/veg.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 5px auto;">
+                
+                <a href="#">what to do with Leftover Dish </a>
+            </div>
+    
+            <!-- Leftover 3 -->
+            <div class="leftover-section">
+                <img src="image/veg.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 5px auto;">
+                
+                <a href="#">what to do with Leftover Dish </a>
+            </div>
+    
+            <!-- Leftover 4 -->
+            <div class="leftover-section">
+                <img src="image/veg.jpeg" alt="img" style="width: 200px; height: 200px; display: block; margin: 5px auto;">
+                
+                <a href="#">what to do with Leftover Dish </a>
+            </div>
+    
+            <!-- Add more leftovers as needed -->
+    
+            <!-- Button for More Leftovers -->
+            <button class="btn-more-leftovers"><a href="more.html">More Leftovers</a></button>
+        </section>
+    
+        
+        
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <!-- Styles for the provided footer -->
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"><i class="fa fa-hand-o-right"></i>home</a>
+                <a href="faqs.html"><i class="fa fa-hand-o-right"></i>FAQs</a>
+                <a href="howto.html"><i class="fa fa-hand-o-right"></i>How-Tos</a>
+                <a href="ingre.html"><i class="fa fa-hand-o-right"></i>Ingredients</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fa fa-hand-o-right"></i>ask questions</a>
+                <a href="#"><i class="fa fa-hand-o-right"></i>about us</a>
+                <a href="#"><i class="fa fa-hand-o-right"></i>privacy policy</a>
+                <a href="#"><i class="fa fa-hand-o-right"></i>terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fa fa-phone"></i>+918306677885</a>
+                <a href="#"><i class="fa fa-phone"></i>+918765894326</a>
+                <a href="#"><i class="fa fa-envelope"></i>aastha@gmail.com</a>
+                <a href="#"><i class="fa fa-map"></i>rajasthan, india</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fa fa-facebook-f"></i>facebook</a>
+                <a href="#"><i class="fa fa-twitter"></i>twitter</a>
+                <a href="#"><i class="fa fa-instagram"></i>instagram</a>
+                <a href="#"><i class="fa fa-linkedin"></i>linkedin</a>
+            </div>
+        </div>
+
+        <div class="credit">created by <span>Aastha Gahlot </span>all rights reserved!</div>
+    </footer>
+
+    <!-- Bootstrap JS and FontAwesome (for search icon) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-id.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
